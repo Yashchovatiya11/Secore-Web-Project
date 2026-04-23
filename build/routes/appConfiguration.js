@@ -11,8 +11,8 @@ exports.retrieveAppConfiguration = void 0;
 const config_1 = __importDefault(require("config"));
 function retrieveAppConfiguration() {
     return (_req, res) => {
-        console.log('fix issue');
-        return res.status(403).send('access denied!!!');
+        console.log('fix the issue');
+        return res.status(403).send('access denied!!! nothing you can show');
     };
 }
 
