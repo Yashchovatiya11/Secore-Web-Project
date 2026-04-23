@@ -60,7 +60,7 @@ describe('SearchResultComponent', () => {
   let sanitizer: any
   let socketIoService: any
   let mockSocket: any
-  let quantityService
+  let quantityService: any
   let deluxeGuard
   let snackBar: any
 

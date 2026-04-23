@@ -108,7 +108,7 @@ export class SearchResultComponent implements OnDestroy, AfterViewInit {
         for (let i = 1; i <= Math.ceil(this.dataSource.data.length / 12); i++) {
           this.pageSizeOptions.push(i * 12)
         }
-        this.paginator.pageSizeOptions = this.pageSizeOptions
+        this.paginator!.pageSizeOptions = this.pageSizeOptions
         this.dataSource.paginator = this.paginator
         this.gridDataSource = this.dataSource.connect()
         this.resultsLength = this.dataSource.data.length
